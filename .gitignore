@@ -1,0 +1,61 @@
+frontend/!**/glob-import/dir/node_modules
+frontend/.DS_Store
+frontend/.idea
+frontend/*.cpuprofile
+frontend/*.local
+frontend/*.log
+frontend//.vscode/
+frontend//docs/.vitepress/cache
+frontend//packages/vite/LICENSE
+frontend/dist
+frontend/dist-ssr
+frontend/explorations
+frontend/node_modules
+frontend/playground-temp
+frontend/temp
+frontend/TODOs.md
+frontend/.eslintcache
+
+node_modules/
+
+# IDE
+backend/.idea
+backend/.awcache
+backend/.vscode
+backend/.devcontainer
+backend/*.code-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# bundle
+backend/packages/**/*.d.ts
+backend/packages/**/*.js
+
+# misc
+backend/.DS_Store
+backend/lerna-debug.log
+backend/npm-debug.log
+backend/yarn-error.log
+backend/**/npm-debug.log
+backend/packages/**/.npmignore
+backend/packages/**/LICENSE
+backend/*.tsbuildinfo
+
+# example
+backend/quick-start
+backend/example_dist
+backend/example
+
+# tests
+backend/test
+backend/benchmarks/memory
+backend/coverage
+backend/.nyc_output
+backend/packages/graphql
+backend/benchmarks/memory
+backend/build/config\.gypi
